@@ -93,7 +93,13 @@ print("***PROBLEM 2.1 : IF-ELSE STATEMENT CONTROL FLOW")
 
 
 //When done, test each of the conditions above by updating the variable to see that the other parts will work.
-dollars = 10; if (dollars == 0) {print("sorry kid You're broke!") } else {print("you've got some spending money!") }
+dollars = 10;
+if (dollars == 0) {
+    print("sorry kid You're broke!")
+}
+else {
+    print("you've got some spending money!")
+}
 
 print("\n")
 print("\n")
@@ -135,12 +141,16 @@ else {
 print("\n")
 print("***PROBLEM 2.2 : IF-ELSE IF-ELSE STATEMENT CONTROL FLOW")
 // dollars has been updated below to have a value of 105. Write an if-else-if statement that prints "Sorry, kid. You're broke!" if dollars has a value of 0 (if), prints "You've got some spending money!" if dollars is more (>) than zero and (&&) less than (<) 100 (else if), and prints "Looks to me like you're rich!" otherwise (else). Observe what is printed to the console.
-dollars = 105; if (dollars == 0)
-{ print("Sorry, kid, you're broke!")
-} else if (dollars > 0 && dollars < 100)
-{ print("You've got some spending money!")
-} else
-{ print("Looks to me like you're rich!") }
+dollars = 105;
+if (dollars == 0){
+    print("Sorry, kid, you're broke!")
+} 
+else if (dollars > 0 && dollars < 100){
+    print("You've got some spending money!")
+} 
+else{
+    print("Looks to me like you're rich!")
+}
 
 
 
